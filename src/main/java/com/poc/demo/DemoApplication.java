@@ -9,9 +9,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
-import com.poc.entities.User;
-import com.poc.repositories.UserRepository;
-
 @SpringBootApplication
 @EnableAutoConfiguration
 @ComponentScan("com.poc")
